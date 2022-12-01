@@ -1,0 +1,71 @@
+.navbar-expand-lg.navbar-collapse {
+  padding: 10px 30px;
+}
+
+.box {
+  background: white;
+  padding: 40px;
+}
+
+.box:hover {
+  color: white;
+  background: -webkit-gradient(linear, left top, right top, from(#f61b10), to(#ef0963));
+  background: linear-gradient(90deg, #f61b10, #ef0963);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 20px;
+}
+
+.one {
+  position: relative;
+}
+.one h1 {
+  color: white;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+}
+.one p {
+  color: white;
+  position: absolute;
+  top: 55%;
+  right: 5%;
+}
+.one .btn {
+  position: absolute;
+  top: 60%;
+  right: 5%;
+}
+
+.logo {
+  width: 150px;
+}
+
+.logo1 {
+  width: 150px;
+}
+
+.font {
+  font-weight: bold;
+  font-size: 66px;
+}
+
+.bor {
+  padding: 50px;
+  border: 1px solid rgb(164, 164, 164);
+  -webkit-transition: 1s;
+  transition: 1s;
+  width: 400px;
+  height: 250px;
+}
+
+.bor:hover {
+  color: white;
+  background: -webkit-gradient(linear, left top, right top, from(#f61b10), to(#ef0963));
+  background: linear-gradient(90deg, #f61b10, #ef0963);
+  -webkit-transition-timing-function: ease-in;
+          transition-timing-function: ease-in;
+  width: 450px;
+  height: 350px;
+}/*# sourceMappingURL=Style.css.map */
